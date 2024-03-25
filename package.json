@@ -1,0 +1,17 @@
+{
+  "name": "tgmar",
+  "version": "1.0.0",
+  "description": "Marks all Telegram dialogs as read on the web version.",
+  "main": "content.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node build.js"
+  },
+  "author": "a13ks3y.ass@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-json-schema": "^6.1.0"
+  }
+}

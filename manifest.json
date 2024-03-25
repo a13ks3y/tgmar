@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "TgMar",
+    "version": "1.0",
+    "description": "Marks all Telegram dialogs as read on the web version.",
+    "permissions": ["scripting", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["https://web.telegram.org/a/*"],
+        "js": ["content.js"]    
+      }
+    ]
+  }
+  
